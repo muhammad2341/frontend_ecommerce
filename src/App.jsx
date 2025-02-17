@@ -21,19 +21,20 @@ function App() {
       delay: 100,
     });
   });
+
   return (
-    <div>
+    <Router> {/* Tambahkan BrowserRouter di sini */}
       <Routes>
         <Route path="/" element={<DashboardPage />} />
         <Route path="/Login" element={<Login />} />
         <Route path="/About" element={<About />} />
         <Route path="/Help" element={<Help />} />
         <Route path="/Support" element={<Support />} />
-        <Route path="/Login" element={<Login />} />
         <Route path="/HomePage" element={<HomePages />} />
         <Route path="*" element={<NotFound404 />} />
       </Routes>
-    </div>
+    </Router>
   );
 }
+
 export default App;
