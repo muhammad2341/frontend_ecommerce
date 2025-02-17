@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import CartItems from "./CartItems"; // Make sure this is the correct import
+import CartItems from "./cartItems"; // Make sure this is the correct import
 import { toggleStatusTab } from "../store/cart";
 
 const CartTab = () => {
