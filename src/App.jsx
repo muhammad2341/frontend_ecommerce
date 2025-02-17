@@ -31,7 +31,7 @@ React.useEffect(() => {
         <Route path="/About" element={<About />} />
         <Route path="/Help" element={<Help />} />
         <Route path="/Support" element={<Support />} />
-        <Route path="/HomePage" element={<HomePages />} />
+        <Route path="/homepage" element={<HomePages />} />
         <Route path="*" element={<NotFound404 />} />
       </Routes>
     </Router>
