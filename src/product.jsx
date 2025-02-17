@@ -4,7 +4,7 @@ import img3 from "../public/aice.jpg";
 import img5 from "../public/kaos.jpg";
 import img6 from "../public/sarung.jpg";
 import img7 from "../public/batik.jpg";
-import img8 from "../public/jajan2.png";
+import img8 from "../public/Jajan2.png";
 import img9 from "../public/motor.jpg";
 import img10 from "../public/mobil.jpg";
 import img11 from "../public/asushitam.jpg";
